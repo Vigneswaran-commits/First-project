@@ -1,0 +1,18 @@
+
+# 1 "delay.c"
+
+# 60 "delay.h"
+extern void DelayMs(unsigned char);
+
+# 10 "delay.c"
+void
+DelayMs(unsigned char cnt) {
+unsigned char i;
+while (cnt--) {
+i=4;
+while(i--) {
+{ unsigned char _dcnt; if(238>=4) _dcnt=(238*((4*1)/(4*1))/2); else _dcnt=1; while(--_dcnt > 0) { asm("nop"); asm("nop"); continue; } };
+} ;
+} ;
+}
+
